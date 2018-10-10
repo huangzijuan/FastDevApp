@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+
+
+    <!-- 黑色-透明度 -->
+    <color name="main_black_10">#1a000000</color>
+    <color name="main_black_20">#33000000</color>
+    <color name="main_black_30">#4d000000</color>
+    <color name="main_black_40">#66000000</color>
+    <color name="main_black_50">#80000000</color>
+    <color name="main_black_60">#99000000</color>
+    <color name="main_black_70">#b3000000</color>
+    <color name="main_black_80">#cc000000</color>
+    <color name="main_black_90">#e6000000</color>
+
+
 </resources>
