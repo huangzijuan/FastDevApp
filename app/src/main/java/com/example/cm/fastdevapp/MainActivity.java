@@ -13,6 +13,8 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.cm.fastdevapp.ui.AlignTextViewActivity;
+import com.example.cm.fastdevapp.ui.CoordinatorTestActivity;
 import com.example.cm.fastdevapp.ui.XfermodeTestActivity;
 
 import java.lang.ref.WeakReference;
@@ -32,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         mListAdapter = new ListAdapter(this);
         final List<Data> dataList = new ArrayList<>();
         dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
-        dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
-        dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
+        dataList.add(new Data("AlignTextViewTest", AlignTextViewActivity.class));
+        dataList.add(new Data("CoordinatorTest", CoordinatorTestActivity.class));
         dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
         mListAdapter.setData(dataList);
         mListView.setAdapter(mListAdapter);
