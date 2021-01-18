@@ -13,6 +13,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.cm.fastdevapp.test.TestFile;
 import com.example.cm.fastdevapp.ui.AlignTextViewActivity;
 import com.example.cm.fastdevapp.ui.CoordinatorTestActivity;
 import com.example.cm.fastdevapp.ui.XfermodeTestActivity;
@@ -30,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //TestFile.test(this);
+
         mListView = (ListView) findViewById(R.id.list);
+
         mListAdapter = new ListAdapter(this);
         final List<Data> dataList = new ArrayList<>();
         dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
