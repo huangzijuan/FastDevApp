@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.example.cm.fastdevapp.test.TestFile;
 import com.example.cm.fastdevapp.ui.AlignTextViewActivity;
 import com.example.cm.fastdevapp.ui.CoordinatorTestActivity;
+import com.example.cm.fastdevapp.ui.FadeInTextViewActivity;
 import com.example.cm.fastdevapp.ui.XfermodeTestActivity;
 
 import java.lang.ref.WeakReference;
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
         dataList.add(new Data("AlignTextViewTest", AlignTextViewActivity.class));
         dataList.add(new Data("CoordinatorTest", CoordinatorTestActivity.class));
-        dataList.add(new Data("XfermodeTest", XfermodeTestActivity.class));
+        dataList.add(new Data("XfermodeTest", FadeInTextViewActivity.class));
         mListAdapter.setData(dataList);
         mListView.setAdapter(mListAdapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

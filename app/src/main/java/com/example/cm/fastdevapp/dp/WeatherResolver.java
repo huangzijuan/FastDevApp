@@ -111,8 +111,8 @@ public class WeatherResolver {
 
 				ContentValues value = new ContentValues();
 				value.put(DataTools._ID, path.hashCode());
-				value.put(DataTools.NAME, name);
-				value.put(DataTools.PATH, path);
+//				value.put(DataTools.NAME, name);
+//				value.put(DataTools.PATH, path);
 				String[] args = new String[] { String.valueOf(path.hashCode()) };
 				database.delete(DataTools.TABLE_NAME, DataTools._ID + "=?", args);
 				// resolver.insert(DataTools.CONTENT_URI, value);
